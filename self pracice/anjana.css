@@ -1,0 +1,63 @@
+/* General styling for body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.email{
+    padding: 10px;
+    background-color: #ebdddd;
+
+}
+span{
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    
+}
+
+header {
+    background-color: #7fe1f5;
+    padding: 20px 0;
+    box-shadow: 0px 0px 5px 0px;
+}
+
+
+nav {
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 20px 25px;
+  font-weight: 600  ;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    background-color: #a874b5;
+   
+}
+
+
+.background{
+    background-image: url(/self\ pracice/.background);
+}

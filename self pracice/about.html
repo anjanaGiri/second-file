@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="/self pracice/about.css">
+</head>
+
+<body>
+    <form action="">
+        First Name: <input type="text" name="fnamae" id="fname" autofocus><br>
+        Last Name: <input type="text" name="lname" id="lname">
+        <br>
+        level : <input type="radio" name="level" id="level">School
+        <input type="radio" name="level" id="level">+2
+        <input type="radio" name="level" id="level"> Bachelor
+        <br>
+        Course : BCA<input type="checkbox" name="Course" id="Course">
+        BBA<input type="checkbox" name="Course" id="Course">
+        B.ED<input type="checkbox" name="Course" id="Course">
+        <br>
+        Enter Phone number: <input type="number" min="10" required placeholder="Enter Your Phone Number">
+        <br>
+        Enter Email Address: <input type="email" name="email" id="email" required>
+        <br>
+        Choose Your Gender:<input type="radio" name="gender" id="gender">Male
+        <input type="radio" name="gender" id="gender">female
+        <input type="radio" name="gender" id="gender">Other
+        <input type="range" name="rangge" id="range">
+        Choose Your File:<input type="file" multiple>
+        Choose color: <input type="color">
+        Time: <input type="time">
+        Enter Your Age : <input type="date" max="1995" min="2025"> <br>
+        Local Time: <input type="datetime-local">
+        <br>
+        District in Lumbini Zone: <select>
+            <optgroup label="Lumbini">
+                <option value="Arghakhanchi">Arghakhanchi</option>
+                <option value="Gulmi">Gulmi</option>
+                <option value="Palpa">palpa</option>
+                <option value="Butwal">Butwal</option>
+            </optgroup>
+            <optgroup label="Medical Program">
+                <option value="B.Phram">B.Pharm</option>
+                <option value="MBBS">MBBS</option>
+                <option value=" B.VSc"> B.VSc</option>
+                <option value="BPT">BPT</option>
+                <option value="BDS">BDS</option>
+                <option value="BAMS">BAMS</option>
+                <option value="BHMS">BHMS</option>
+                <option value="B.Sc Nursing">B.Sc Nursing</option>
+            </optgroup>
+
+        </select>
+        <br>
+        <br>
+        Name of Family members: <input type="text" list="members">
+        <datalist id="members">
+            <option value="anjana">anjana</option>
+            <option value="anil">anil</option>
+            <option value="rishab">rishab</option>
+
+        </datalist>
+
+        <br>
+        <button>submit</button>
+        <br>
+        <input type="reset" value="Reset">
+
+
+    </form>
+
+
+
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

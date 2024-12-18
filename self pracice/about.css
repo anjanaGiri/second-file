@@ -1,0 +1,169 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the form */
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Title styling */
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Label Styling */
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* Name Input Fields */
+input[type="text"] {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 8px 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+input[type="text"]:focus {
+    border-color: #4CAF50;
+}
+
+/* Level Selection */
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="radio"] + label {
+    margin-right: 15px;
+}
+
+/* Course Checkbox Styling */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="checkbox"] + label {
+    margin-right: 15px;
+}
+
+/* Gender Selection */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Input Fields Styling */
+input[type="number"],
+input[type="email"],
+input[type="file"],
+input[type="color"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="time"],
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Button Styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Reset Button Styling */
+input[type="reset"] {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input[type="reset"]:hover {
+    background-color: #d32f2f;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Add some space between form elements */
+input, select, button {
+    margin-bottom: 15px;
+}
+
+/* Hover effect on the select element */
+select:hover {
+    border-color: #4CAF50;
+}
+
+/* Hover effect for input and text areas */
+input[type="text"]:hover, input[type="email"]:hover, input[type="number"]:hover, input[type="file"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime-local"]:hover, input[type="time"]:hover {
+    border-color: #4CAF50;
+}
+
+/* Center Align Name Input Fields */
+input[name="fname"], input[name="lname"] {
+    width: calc(50% - 10px); /* Each input takes up half the width */
+    display: inline-block;
+    margin-right: 5px;
+}
+
+input[name="fname"]:focus, input[name="lname"]:focus {
+    border-color: #4CAF50;
+}
